@@ -1,0 +1,3 @@
+module GO-GRPC-API-GATEWAY
+
+go 1.21.5
