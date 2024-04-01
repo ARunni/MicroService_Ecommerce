@@ -43,8 +43,8 @@ func NewServerHTTP(adminHandler *handler.AdminHandler, productHandler *handler.P
 }
 
 func (s *ServerHTTP) Start() {
-	log.Printf("starting server on :3000")
-	err := s.engine.Run(":6000")
+	log.Printf("starting server on :7000")
+	err := s.engine.Run(":7000")
 	if err != nil {
 		log.Printf("error while starting the server")
 	}
